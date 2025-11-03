@@ -1,27 +1,44 @@
-# Algoritmos
+# 📚 Grokking Algorithms (Entendendo Algoritmos)
 
-Este repositório contém implementações de vários algoritmos, principalmente em Java, baseados nos conceitos explicados no livro "Entendendo Algoritmos" (Grokking Algorithms) de Aditya Y. Bhargava. O objetivo é fornecer exemplos práticos e funcionais dos algoritmos abordados no livro, facilitando o aprendizado e a consulta.
+## Implementações Práticas em Java
 
-## Estrutura do Repositório
+Este repositório contém implementações em código **Java** de vários algoritmos e estruturas de dados essenciais, baseados nos conceitos explicados no livro **"Entendendo Algoritmos"** (*Grokking Algorithms*) de Aditya Y. Bhargava.
 
-O repositório está organizado por capítulo ou tópico, correspondendo à progressão do livro. Atualmente, você encontrará as seguintes implementações:
+O objetivo é fornecer exemplos práticos, funcionais e de fácil compreensão para reforçar o aprendizado dos conceitos fundamentais de Ciência da Computação.
 
-* **Introdução a Algoritmos**
-    * `01_introduction_to_algorithms/BinarySearch/BinarySearch`: Implementação do algoritmo de Busca Binária, um dos primeiros conceitos introduzidos.
-* **Algoritmos de Ordenação**
-    * `02_selection_sort/SelectionSort`: Implementação do algoritmo de Ordenação por Seleção.
-    * `04_quicksort/Quicksort`: Implementação do algoritmo Quicksort.
-* **Conceitos Fundamentais**
-    * `03_recursion`: Exemplos e implementações relacionadas ao conceito de Recursão.
+---
 
-## Tecnologias
+## 🛠️ Tecnologias Utilizadas
 
-* Java
+* **Linguagem de Programação:** Java
+* **Estrutura:** Organizado por tópicos (capítulos do livro).
 
-## Como Usar
+## 🗂️ Estrutura do Repositório e Conteúdo
 
-Você pode clonar este repositório para explorar o código-fonte dos algoritmos. Cada diretório contém o código-fonte correspondente ao algoritmo ou conceito.
+Os códigos estão organizados em diretórios numerados que correspondem, em grande parte, à progressão do livro.
 
-```bash
-git clone [https://github.com/omarcosallan/algorithms.git](https://github.com/omarcosallan/algorithms.git)
-cd algorithms
+| Diretório | Tópico Principal | Conteúdo |
+| :--- | :--- | :--- |
+| `01_introduction_to_algorithms` | Introdução | Implementação da **Busca Binária** (*Binary Search*). |
+| `02_selection_sort` | Ordenação | Implementação do algoritmo de **Ordenação por Seleção** (*Selection Sort*). |
+| `03_recursion` | Conceitos | Exemplos e implementações relacionados ao conceito de **Recursão**. |
+| `04_quicksort` | Ordenação | Implementação detalhada do algoritmo **Quicksort**. |
+| `05_hash_tables` | Estruturas de Dados | Uso e conceitos de **Tabelas Hash** (*Hash Maps*). |
+| `06_breadth-first_search` | Grafos | Implementação da **Busca em Largura** (*Breadth-First Search - BFS*) para explorar grafos. |
+| `07_dijkstras_algorithm` | Grafos | Implementação do Algoritmo de Dijkstra para encontrar o caminho mais curto. |
+
+## 🔗 Estudo Complementar: Estruturas de Dados
+
+Para um estudo mais aprofundado, que combina a lógica dos algoritmos com a forma como os dados são organizados, você pode consultar o repositório complementar:
+
+### **[estrutura-de-dados](https://github.com/omarcosallan/estrutura-de-dados)**
+
+Este repositório foca nas implementações das principais estruturas de dados em **Java**, incluindo:
+
+* **`vector`** (Vetores)
+* **`list`** (Listas)
+* **`stack`** (Pilhas)
+* **`queue`** (Filas)
+* **`binary-tree`** (Árvores Binárias)
+
+O entendimento das estruturas de dados é fundamental para compreender a performance e a aplicação prática dos algoritmos.
